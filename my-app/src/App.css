@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -55,7 +55,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  background: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  background: linear-gradient(141deg, #296e50 0%, #f80e0e 51%, #84e931 75%);
 }
 .container {
   max-width: 800px;
@@ -87,18 +87,19 @@ body {
   padding: 20px;
   display: flex;
   border-radius: 5px;
-  box-shadow: 0 1px 6px -2px #000;
-  background-color: #FFF;
+  box-shadow: 0 10px 16px  #000;
+  background-color: rgb(138, 197, 187);
   margin-bottom: 30px;
 }
 .card img {
   width: 150px;
   height: 150px;
-  border-radius: 3px;
+  border-radius: 30px;
   margin-right: 20px;
 }
 .card .name {
   font-size: 3.4rem;
+  
 }
 .card p {
   font-size: 1.4rem;
@@ -108,8 +109,9 @@ body {
   font-size: 1.8rem;
   font-style: italic;
   margin: 3px 0 10px;
+  color: green;
 }
-=======
+ 
 .App {
   text-align: center;
 }
@@ -148,4 +150,4 @@ body {
     transform: rotate(360deg);
   }
 }
->>>>>>> d13e4ac967ca1b27c941a599743b3e3e655257e9
+

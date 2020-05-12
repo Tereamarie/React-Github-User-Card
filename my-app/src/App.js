@@ -1,5 +1,5 @@
 import React from 'react';
-<<<<<<< HEAD
+
 import './App.css';
 
 
@@ -33,17 +33,9 @@ class App extends React.Component {
             .then(res => res.json())
             .then(res => this.setState({followers: [...this.state.followers, res]}))
         )
-        // fetch(`https://api.github.com/users/${user}`)
-        //   .then(user.map(follower => {
-        //     this.setState({followers: follower})
-        //   }))
+        
       )
-      // .then(res => this.setState({ followers: res }))
-      // .then(res => console.log(res))
-      // .then(res => res.map((user, followers) => 
-      //   this.setState({
-      //     followers:  [...this.state.followers, user.login]
-      //   })))
+      
       .catch(err => console.log('Followers Error: ', err))
   }
 
@@ -94,30 +86,10 @@ class App extends React.Component {
       </div>
     );
   }
-=======
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
->>>>>>> d13e4ac967ca1b27c941a599743b3e3e655257e9
+
+
+
 }
 
 export default App;
